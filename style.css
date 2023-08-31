@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar{
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    display: flex;
+}
+
+.fill{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(57, 57, 57);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column-reverse;
+}
+
+.fill button {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    width: 120px;
+    height: 60px;
+    border: none;
+    
+}
+
+.fill button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: greenyellow;
+    width: 180px;
+    height: 80px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+}
+
+@keyframes color {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.top-bar{
+    font-family: monospace;
+    font-size: 20px;
+    background-color: greenyellow;
+    width: 100vw;
+    height: 80px;
+    font-weight: 900;
+    color: rgb(57, 57, 57);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+}
+
+.letras{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.adv{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(127, 255, 212, 0);
+    
+
+}
+
+.ad4v{
+    font-family: 'Poppins', sans-serif;
+    font-size: 300px;
+    background-color: greenyellow;
+    font-weight: 900;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 100px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.space{
+    width: 100vw;
+    height: 60px;
+}
+
+
+.adv p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 300px;
+    margin: 0px;
+    font-weight: 500;   
+    color: greenyellow;
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+
+.neon-house{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.loginB {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.loginB button{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 40px;
+    height: 60%;
+    background-color: rgb(57, 57, 57);
+    border: none;
+    color: greenyellow;
+    animation: color 8s linear infinite;
+    
+}
+
+.logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0px;
+    color: rgb(57, 57, 57);
+    margin-left: 20px;
+}
+
+.btns:hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+    color: greenyellow;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+
+.btns:active{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;   
+    color: rgb(57, 57, 57);
+    background-color: greenyellow;
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+dialog{
+    width: 100vw;
+    height: 100vh;
+    transform: translate(0%, 5%);
+    transition: 1s;
+    border: none;
+    padding: 0px;
+
+    background-color: rgb(57, 57, 57);
+}
+
+.suvcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+input{
+    margin: 30px;
+    height: 30px;
+    width: 240px;
+}
+
+#username{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+
+}
+
+
+#password{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+
+.log{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    color: rgb(57, 57, 57);
+    background-color: greenyellow;
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+    width: 80px;
+    height: 30px;
+    margin: 30px;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form p{
+    margin-right: 200px;
+    padding: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+
+#x{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    color: rgb(57, 57, 57);
+    background-color: greenyellow;
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 8s linear infinite;
+    border-radius: 1px;
+}
+/* /////////////////////////////////////////////////////////////// */
+#neonPopup{
+    width: 100vw;
+    height: 100vh;
+    transition: 1s;
+    transform: translate(0%, -200%);
+    transition: 1s;
+    border: none;
+    padding: 0px;
+
+    background-color: rgb(57, 57, 57);
+}
+
+.neonContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.neonContainer p{
+    padding: 8px;
+    font-family: monospace;
+    font-size: 60px;
+    background-color: greenyellow;
+    height: 80px;
+    font-weight: 900;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 0.5s linear infinite;
+}
+
+.close{
+    height: 3%;
+    width: 100%;
+}
+
+.close button{
+    border: none;
+    font-family: monospace;
+    background-color: greenyellow;
+    font-weight: 900;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow; 
+    animation: color 2s linear infinite;
+}
+
+.supercontainer{
+    width: 100%;
+    height: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
